@@ -11,6 +11,8 @@ const FourthSection = () => {
               <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="" />
               <img src="https://images.unsplash.com/photo-1664575196044-195f135295df" alt="" />
                <img src="https://images.unsplash.com/photo-1573879404555-3f82d0582798" alt="" />
+               <img src="https://images.unsplash.com/photo-1640622307985-eaa37b36077f" alt="" />
+               <img src="https://images.unsplash.com/photo-1484807352052-23338990c6c6" alt="" />
             </div>
 
 
@@ -27,7 +29,7 @@ const FourthSection = () => {
             </div>
             <div className='message-box'>
                 <h3 className='msg-box-h3'>Build</h3>
-                <p>Build your products and update the project regularly so others can follow your product story.</p>
+                <p>Build your products and update the project's diary regularly so others can follow your product story.</p>
             </div>
 
         </div>
