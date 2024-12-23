@@ -7,14 +7,14 @@ const Learnsection = () => {
     <div className='learn-main-box'>
 
                 {/* the image brackground */}
-                <img className='img-background' src="../src/assets/City-background.png" alt="" />
+                <img className='img-background' src="../public/Static/City-background.png" alt="" />
         {/* the transparent layer */}
         <div className="learn-container-1"></div>
 
         <div className="learn-container-2">
             <div className="learn-con-2-col-1">
                 <video className="video-community-welcome" autoPlay loop muted>
-                   <source src="../src/assets/community.mp4" type="video/mp4"/>
+                   <source src="../public/Static/community.mp4" type="video/mp4"/>
                    Welcome
                 </video> 
             </div>

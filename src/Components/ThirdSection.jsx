@@ -11,13 +11,13 @@ const ThirdSection = () => {
             <p className='example'>Check the ideas page to see problems people are dealing with and see how you can solve it with your skills. You get rewarded when your projects get rated at the top of others. Moreover, your projects is yours. You can use it in the real-world.</p>
         </div>
         <div className="third-section-col-2">
-            <img className='pc-img' src="../src/assets/profilesamples1.png" alt="" />
-            <img className='mobile-img' src="../src/assets/profilesamplesmobile1.png" alt="" />
-            <img className='pc-img' src="../src/assets/profilesamples2.png" alt="" />
-            <img className='mobile-img'  src="../src/assets/profilesamplesmobile2.png" alt="" />
-            <img className='pc-img' src="../src/assets/profilesamples3.png" alt="" />
-            <img className='mobile-img' src="../src/assets/profilesamplesmobile3.png" alt="" />
-            <img className='pc-img' src="../src/assets/profilesamples4.png" alt="" />
+            <img className='pc-img' src="../public/Static/profilesamples1.png" alt="" />
+            <img className='mobile-img' src="../public/Static/profilesamplesmobile1.png" alt="" />
+            <img className='pc-img' src="../public/Static/profilesamples2.png" alt="" />
+            <img className='mobile-img'  src="../public/Static/profilesamplesmobile2.png" alt="" />
+            <img className='pc-img' src="../public/Static/profilesamples3.png" alt="" />
+            <img className='mobile-img' src="../public/Static/profilesamplesmobile3.png" alt="" />
+            <img className='pc-img' src="../public/Static/profilesamples4.png" alt="" />
         </div>
     </div>
   )

@@ -22,6 +22,7 @@ const Hamburgermenu = () => {
               <li className='menu-btn'>Ideas</li>
               <li className='menu-btn'>Contribute</li>
               <li className='menu-btn'>Alumni</li>
+              <button className='see-project-btn-1'> See Projects <span className='see-project-arrow'> &#8594;</span> </button>
           </div>
           </>
         )}
