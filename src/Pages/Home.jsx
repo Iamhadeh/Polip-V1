@@ -13,8 +13,7 @@ import Footer from '../Components/Footer'
 
 const Home = () => {
   return (
-    <> 
-    <Header/>
+    <>
     <Main/>
     <QuoteSlider/>
     <ThirdSection/>
@@ -22,7 +21,6 @@ const Home = () => {
     <Learnsection/>
     <RewardSection/>
     <LastSection/>
-    <Footer/>
     </>
   )
 }

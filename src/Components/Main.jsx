@@ -9,7 +9,7 @@ const Main = () => {
 
   return (
     <div className="main-box"> 
-      <h1 className='heading-1'>The community and reward platform for <span className='changing-text'>the future of tech </span> </h1>
+      <h1 className='heading-1'>The community and reward platform for <br /> <span className='changing-text'>the future of tech </span> </h1>
       
       <div className="main-box-paragraph">
         <p>What do you do when you have ideas that can change the future of tech?</p>

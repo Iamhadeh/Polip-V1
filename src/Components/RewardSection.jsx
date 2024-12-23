@@ -34,7 +34,7 @@ const RewardSection = () => {
          <p>The number of Active Members We currently have <input value={value} type="text" /></p>
          <p>We reward monthly winners with  <input value= {"$" + value2} type="text" /></p>
           <div className='reward-terms-box'>
-            <p className='reward-terms'>More information when you <span style={{color:"orange", fontSize:"1.2rem"}}>sign up</span></p>
+            <p className='reward-terms'>More information when you <span style={{color:"orange", fontSize:"1.2rem", cursor:"pointer"}}>sign up</span></p>
           </div>
       </div> 
     </div>

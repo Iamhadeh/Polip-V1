@@ -10,9 +10,9 @@ const WebsiteFeature = () => {
       <button className="show-features-btn">Connect</button>
       <button className="show-features-btn">Trends</button>
       <button className="show-features-btn">Inspire</button>
-      <button className="show-features-btn">Earn</button>
-      <button className="show-features-btn">Learn</button>
-      <button className="show-features-btn">Support</button>
+      <button className="show-features-btn-5">Earn</button>
+      <button className="show-features-btn-6">Learn</button>
+      <button className="show-features-btn-7">Support</button>
     </div>
 
     <div className="website-feature-images">

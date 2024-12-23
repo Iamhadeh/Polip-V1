@@ -25,10 +25,10 @@ const Footer = () => {
             <li>Case Studies</li>
             <li>Reward</li>
           </ul>
-        </div>
+      </div>
         
         
-        <div className="footer-col-2-social-media">
+      <div className="footer-col-2-social-media">
 
         <ul className='social-media-icons'>
                 <li> <a href=""><img style={{height:"20px"}} src="https://img.icons8.com/?size=100&id=118491&format=png&color=000000" alt="" /></a></li>
