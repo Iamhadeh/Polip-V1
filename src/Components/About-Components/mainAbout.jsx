@@ -1,10 +1,16 @@
 
 import React from 'react'
-import './MainAbout.css'
+import './About.css'
 
 const MainAbout = () => {
   return (
-    <div>mainAbout</div>
+    <>
+   
+    <div className='background-about'>
+
+    </div>
+    <h1>Hello, this is the about</h1>
+    </>
   )
 }
 

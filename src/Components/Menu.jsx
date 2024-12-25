@@ -5,14 +5,30 @@ import { NavLink } from 'react-router-dom'
 const Menu = () => {
   return (
     <ul className="menu-btns">
-      <NavLink to={'about'}>
+      <NavLink to={'about-polip'}>
         <li className='menu-btn'>About</li>
+        <hr/>
       </NavLink>
-      <li className='menu-btn'>Winners</li>
-      <li className='menu-btn'>Resources</li>
-       <li className='menu-btn'>Ideas</li>
-       <li className='menu-btn'>Community</li>
-       <li className='menu-btn'>Alumni</li>
+      <NavLink to={'winners'}>
+        <li className='menu-btn'>Winners</li>
+        <hr/>
+      </NavLink>
+      <NavLink to={'resources'}>
+        <li className='menu-btn'>Resources</li>
+        <hr/>
+      </NavLink>
+      <NavLink to={'ideas'}>
+        <li className='menu-btn'>ideas</li>
+        <hr/>
+      </NavLink>
+      <NavLink to={'community'}>
+        <li className='menu-btn'>commmunity</li>
+        <hr/>
+      </NavLink>
+      <NavLink to={'ideas-page'}>
+        <li className='menu-btn'>Alumni</li>
+        <hr/>
+      </NavLink>
  </ul>
   )
 }
