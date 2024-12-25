@@ -16,11 +16,11 @@ const WebsiteFeature = () => {
     </div>
 
     <div className="website-feature-images">
-        <img src="../public/static/ideaPage.png" alt="" />
-        <img src="../public/static/profilePage.png" alt="" />
-        <img src="../public/static/sharePage.png" alt="" />
-        <img src="../public/static/winningPage.png" alt="" />
-        <img src="../public/static/winnerPage.png" alt="" />
+        <img src="../public/static/images/ideaPage.png" alt="" />
+        <img src="../public/static/images/profilePage.png" alt="" />
+        <img src="../public/static/images/sharePage.png" alt="" />
+        <img src="../public/static/images/winningPage.png" alt="" />
+        <img src="../public/static/images/winnerPage.png" alt="" />
     </div>
   </div>
     

@@ -2,10 +2,10 @@
 import React from 'react'
 import './MainAbout.css'
 
-const mainAbout = () => {
+const MainAbout = () => {
   return (
     <div>mainAbout</div>
   )
 }
 
-export default mainAbout;
+export default MainAbout;

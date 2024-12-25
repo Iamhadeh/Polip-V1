@@ -1,10 +1,10 @@
 
 import React from 'react'
 
-const ideasPage = () => {
+const IdeasPage = () => {
   return (
     <div>ideasPage</div>
   )
 }
 
-export default ideasPage
+export default IdeasPage;

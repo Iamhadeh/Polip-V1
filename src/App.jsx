@@ -10,6 +10,7 @@ import About from './Pages/About.jsx'
 import Resources from './Pages/Resources.jsx';
 import Communities from './Pages/Communities.jsx'
 import Alumni from './Pages/Alumni.jsx'
+import IdeasPage from './Pages/ideasPage.jsx'
 
 
 // npm run dev -- --open --port 8120
@@ -23,9 +24,9 @@ const App = () => {
         < Route path='/' element={<Home/>} />
         < Route path='/about-polip' element={<About />}/>
         < Route path='/resources' element={<Resources />}/>
-        < Route path='/ideas' element={< ideasPage />}/>
         < Route path='/communities' element={<Communities />}/>
         < Route path='/alumni' element={<Alumni />}/>
+        < Route path='/ideas' element={<IdeasPage/>} />
       </Routes>
       <Footer/>
 
