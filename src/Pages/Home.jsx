@@ -9,7 +9,7 @@ import FourthSection from '../Components/FourthSection'
 import RewardSection from '../Components/RewardSection'
 import Learnsection from '../Components/Learnsection'
 import LastSection from '../Components/LastSection'
-import Footer from '../Components/Footer'
+
 
 const Home = () => {
   return (

@@ -1077,7 +1077,8 @@ nav .mainNavBtn {
 }
 
 .see-project-btn {
-  background-color: orange;
+  display: none;
+  /* background-color: orange; */
 }
 
 
@@ -1912,16 +1913,6 @@ footer {
     height: 32px;
   }
   
-  .see-project-btn {
-    background-color: orange;
-    height: 32px;
-    width: 100px;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1px;
-  }
   
   
   
@@ -2010,6 +2001,13 @@ footer {
     align-items: center;
     background-color: #48120c;
      */
+  }
+
+  .show-feature-slider-bar button {
+    padding: 0px 0px;
+    width: 65px;
+    height: 25px;
+    font-size: 13px;
   }
   
   
@@ -2653,6 +2651,7 @@ footer {
   }
 
 
+
   @media screen and (max-width: 390px) {
 
     body {
@@ -2970,7 +2969,7 @@ footer {
      
      
      footer {
-       height: 800px;
+       height: 960px;
        width: 390px;
        gap: 20px;
        /* display: flex;
@@ -2995,17 +2994,24 @@ footer {
      .footer-col-2-first-col {
        /* height: 300px; */
        width: 330px;
+       height: 600px;
      }
      
      .footer-col-2-social-media  {
        width: 330px;
+       height: 400px;
+       display: flex;
+       flex-direction: column-reverse;
+       gap: 20px;
      }
      
  
     .downloads-btn-con button {
       background-color: orange;
-      height: 25px;
-      width: 100px;
+      height: 40px;
+      width: 150px;
+      font-size: 14px;
+      padding: 10px 0px;
     }
     
     .downloads-btn-con {
@@ -3014,7 +3020,400 @@ footer {
       align-items: center;
       flex-direction: column;
       height: 80px;
-      width: fit-content; 
+      width: 200px; 
+      gap: 10px;
+      padding: 10px 20px;
+    }
+     
+     
+
+  }
+
+  
+  @media screen and (max-width: 360px) {
+
+    body {
+      width: 360px;
+     }
+     
+     
+     header {
+       max-width: 360px;
+       /* gap: 10px;
+       align-items: center;
+       justify-content: center;
+       padding-right: 0px; */
+     }
+     
+   
+    
+     
+     .header-col-2 {
+       gap: 0px;
+     }
+     
+     
+     
+     
+     /* Hamburger menu */
+     
+     
+     
+     .login-btn {
+       font-size: 10px;
+       width: 65px;
+       height: 32px;
+     }
+     
+     .see-project-btn {
+      display: none;
+     }
+     
+     nav {
+      margin-left: 5px;
+
+     }
+     
+     
+     /* second section -- main part of home page */ 
+     
+     .main-box {
+       max-width: 360px;
+     }
+     
+     
+     /* .main-box-paragraph p {
+       font-size: 15px;
+     } */
+     
+     
+     
+     
+     .main-box-col-2 {
+       width: 360px;
+       height: 400px;
+     }
+     
+     .website-feature-images {
+       width: 300px;
+       height: 240px;
+     }
+     
+     .website-feature-images img {
+       width: 300px;
+       height: 240px;
+     }
+     
+     
+     .show-feature-slider-bar {
+       width: 300px;
+       gap: 7px;
+     }
+
+     .show-feature-slider-bar button {
+      padding: 0px 0px;
+      width: 60px;
+      height: 25px;
+      font-size: 12px;
+      cursor: none;
+    }
+     
+
+
+     
+     /* quote slider container */
+     
+     .quote-slider-container {
+       width: 270px;
+     }
+     
+     .inner-container-cos-map {
+       width: 270px;
+       height: 340px;
+     }
+    
+     .quote-container {
+       width: 240px;
+      }
+     
+      .last-container{
+       width: 240px;
+       gap: 10px;
+      }
+     
+     
+     .image-box {
+       height: 80px;
+       width: 50px;
+       /* display: flex;
+       justify-content: center;
+       align-items: center; */
+     }
+     
+     .quote-box {
+       height: 300px;
+       width: 200px;
+       /* display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 0px 20px; */
+     }
+      .img-for-quotes {
+       height: 70px;
+       width: 70px;
+       border-radius: 50%;
+      }
+     
+   
+       .main-quotes {
+         font-size: 14px;
+         width: 180px;
+        }
+     
+     
+     
+     
+     
+     
+     /* Another section  */
+     
+     .Third-section-con {
+       width: 360px;
+     }
+     
+     .third-section-col-1 {
+       width: 300px;
+     }
+     
+  
+     
+     .third-section-col-2 {
+       display: grid;
+       grid-template-columns: 300px;
+       grid-row: 420px;
+       width: 300px;
+       height: 420px;
+       
+     }
+     
+     .pc-img { 
+       width: 300px;
+     }
+     
+     .mobile-img {
+      margin-left: 65px;
+     }
+     
+     
+     
+     /* fourth section */
+     
+     
+     .fourth-section {
+       width: 360px;
+     }
+     
+     .fourth-section-con {
+       width: 300px;
+     }
+     
+     .heading-3 {
+       font-size: 1.8rem;
+     }
+     
+     .fourth-section-img-box {
+       grid-template-columns: 300px;
+       width: 300px;
+       
+     }
+     
+     .fourth-section-img-box img{
+       width: 300px;
+       height: 400px;
+     }
+     
+     
+     .fourth-section-col-2 {
+       width: 300px;
+       height: 600px;
+     }
+     
+     .fourth-section-col-2-con {
+       height: 520px;
+       width: 300px;
+     }
+     
+     .message-box {
+       width: 240px;
+       height: 240px;
+     }
+     
+     .msg-box-h3{
+       height: 18px;
+       color: #f0f0f0;
+     }
+     
+     .heading-4 {
+       font-size: 1.8rem;
+       padding-bottom: 10px;
+       color: #48120c;
+     }
+     
+        
+     
+     
+
+     /* learn section */
+     
+     .learn-main-box {
+       width: 390px;
+
+       grid-template-columns: 390px;
+
+     }
+     
+     
+     .learn-container-1 {
+       background-color: rgb(72 18 12/0.7);
+       width: 360px;
+       height: 600px;
+     }
+     
+      .img-background {
+       width: 360px;
+       height: 600px;
+       grid-row: 1/2;
+       grid-column: 1/2;
+     
+     } 
+     
+     .learn-container-2 {
+       width: 360px;
+     }
+     
+     
+   
+     
+     
+     /* Reward section  */
+     .reward-section {
+       width: 390px;
+     }
+     
+     .reward-section-col-1, .reward-section-col-2 {
+       width: 330px;
+     }
+     
+     
+     .reward-section-col-2 {
+       width: 330px;
+     }
+     
+     .reward-section-col-2 input {
+       height: 50px;
+       width: 200px;
+       font-size: 1.5rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 0px 30px;
+       border-radius: 25px;
+       margin: 10px 0px;
+     }
+     
+      
+     .reward-section-col-2 p {
+       color: #48120c;
+       text-align: center;
+       width: 220px;
+     } 
+     
+     .reward-terms-box {
+       height: 50px;
+       width: 330px;
+     }
+     
+      .reward-terms-box p {
+       color: #f0f0f0;
+       text-align: center;
+       padding-top: 5px;
+       padding-left: 20px;
+       width: 300px;
+     } 
+     
+     .reward-terms {
+       width: 390px;
+     }
+     
+     
+     
+     
+     /* last section  */
+     
+     .last-section {
+       height: 400px;
+       width: 390px;
+     }
+     
+     .last-section-con {
+      width: 330px;
+     }
+     
+     
+     footer {
+       height: 960px;
+       width: 390px;
+       gap: 20px;
+       /* display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 50px;
+       padding-top: 25px; */
+     }
+     
+     .footer-cta {
+       height: 300px;
+       width: 330px;
+     }
+     
+     
+     .footer-col-2 {
+       height: 420px;
+       width: 330px;
+     }
+     
+     .footer-col-2-first-col {
+       /* height: 300px; */
+       width: 330px;
+       height: 600px;
+     }
+     
+     .footer-col-2-social-media  {
+       width: 330px;
+       height: 400px;
+       display: flex;
+       flex-direction: column-reverse;
+       gap: 20px;
+     }
+     
+ 
+    .downloads-btn-con button {
+      background-color: orange;
+      height: 40px;
+      width: 150px;
+      font-size: 14px;
+      padding: 10px 0px;
+    }
+    
+    .downloads-btn-con {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 80px;
+      width: 200px; 
       gap: 10px;
       padding: 10px 20px;
     }
