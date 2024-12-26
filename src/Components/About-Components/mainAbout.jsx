@@ -1,13 +1,21 @@
 
 import React from 'react'
 import AboutUsSection from './AboutUsSection'
+import BODSection from './BODSection'
+import MissionStatement from './mission-stat-sec'
+import Career from './Career'
+import Statistics from './statistics'
 
 
 const MainAbout = () => {
   return (
     <>
     <div className='background-about'>
-      <AboutUsSection/>
+      <AboutUsSection/> 
+      <MissionStatement/>
+      <Statistics/>
+      <BODSection/>
+      <Career/>
     </div>
     </>
   )

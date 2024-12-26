@@ -113,6 +113,10 @@ a {
   cursor: pointer;
 }
 
+.menu-btn:active {
+  border: 1px solid orange;
+}
+
 .menu-btn:hover {
   border-bottom: 1px solid #f0f0f0;;
 
@@ -646,7 +650,7 @@ nav .menuBtn {
   max-width: 1440px;
   background-color: #f7f0ea;
   display: grid;
-  grid-template-columns: 520px;
+  grid-template-columns: 1220px;
   grid-template-rows: 1220px;
   padding: 40px 100px;
 }
@@ -658,12 +662,12 @@ nav .menuBtn {
 
 .learn-container-1 {
   background-color: rgb(72 18 12/0.7);
-  max-width: 1220px;
+  width: 1220px;
   height: 480px;
 }
 
  .img-background {
-  max-width: 1220px;
+  width: 1220px;
   height: 480px;
   grid-row: 1/2;
   grid-column: 1/2;
@@ -714,6 +718,10 @@ nav .menuBtn {
   max-width: 580px;
 }
 
+.reward-section-col-2 {
+  padding-top: 20px;
+}
+
 .see-reward-btn {
   background-color: orange;
 }
@@ -757,7 +765,7 @@ nav .menuBtn {
   border-radius: 30px;
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 40px;
   justify-content: center;
   align-items: center;
 }
@@ -784,7 +792,7 @@ nav .menuBtn {
   background-color: #48120c;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  margin-top: 20px;
+  margin-top: 85px;
 }
 
 .reward-terms-box p {
@@ -815,7 +823,7 @@ nav .menuBtn {
 
 .last-section-con {
    height: 270px;
-   max-width: 1220px;
+   width: 1220px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -865,7 +873,7 @@ footer {
 
 .footer-col-2-first-col, .footer-col-2-social-media {
   height: 80px;
-  max-width: 600px;
+  width: 600px;
   border: 1px solid orange;
   display: flex;
   justify-content: center;
@@ -3181,7 +3189,7 @@ footer {
   
   
   footer {
-    height: 700px;
+    height: 770px;
     width: 428px;
     /* display: flex;
     flex-direction: column;
@@ -3990,7 +3998,7 @@ footer {
      
      footer {
        height: 960px;
-       width: 390px;
+       width: 360px;
        gap: 20px;
        /* display: flex;
        flex-direction: column;
@@ -4002,23 +4010,23 @@ footer {
      
      .footer-cta {
        height: 300px;
-       width: 330px;
+       width: 300px;
      }
      
      
      .footer-col-2 {
        height: 420px;
-       width: 330px;
+       width: 300px;
      }
      
      .footer-col-2-first-col {
        /* height: 300px; */
-       width: 330px;
+       width: 300px;
        height: 600px;
      }
      
      .footer-col-2-social-media  {
-       width: 330px;
+       width: 300px;
        height: 400px;
        display: flex;
        flex-direction: column-reverse;
