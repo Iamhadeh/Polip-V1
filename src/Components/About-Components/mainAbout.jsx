@@ -1,15 +1,14 @@
 
 import React from 'react'
-import './About.css'
+import AboutUsSection from './AboutUsSection'
+
 
 const MainAbout = () => {
   return (
     <>
-   
     <div className='background-about'>
-
+      <AboutUsSection/>
     </div>
-    <h1>Hello, this is the about</h1>
     </>
   )
 }

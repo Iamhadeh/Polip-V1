@@ -34,12 +34,11 @@ h1, h2, h3, p, li, a {
 
 header {
   height: 50px;
-  width: 1440px;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   padding: 10px 20px;
-  gap: 350px;
   position: fixed;
   z-index: 1;
   background-color: #48120c;
@@ -75,9 +74,8 @@ header {
   gap: 5px;
 }
 
-.hidden {
-  display: none;
-}
+
+
 
 
 
@@ -113,6 +111,11 @@ a {
   padding: 0px;
   margin: 0px;
   cursor: pointer;
+}
+
+.menu-btn:hover {
+  border-bottom: 1px solid #f0f0f0;;
+
 }
 
 
@@ -159,14 +162,13 @@ nav .menuBtn {
 
 .main-box {
   height: 1400px;
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   justify-content: center;
   align-items: center;
   position: relative;
-
 }
 
 .heading-1 {
@@ -202,7 +204,7 @@ nav .menuBtn {
 
 .main-box-col-2 {
   margin: 50px 0px;
-  width: 1440px;
+  max-width: 1440px;
   height: 800px;
   border: 1px solid white;
   display: flex;
@@ -211,6 +213,7 @@ nav .menuBtn {
   align-items: center;
   background-color: #f0f0f0;
 }
+
 
 .website-feature-images {
   width: fit-content;
@@ -222,6 +225,7 @@ nav .menuBtn {
 }
 
 .website-feature-images img {
+  max-width: 1200px;
   display: grid;
   grid-column: 1/2;
   grid-row: 1/2;
@@ -274,20 +278,21 @@ nav .menuBtn {
   height: 60px;
   border-radius: 100px;
   display: flex;
-  gap: 50px;
-  width: 1200px;
+  gap: 20px;
+  max-width: 1200px;
   border: 1px solid #48120c;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: #48120c;
   margin: 20px 0px;
+  padding: 0px 20px;
 }
 
 
 /* quote slider container */
 
 .quote-slider-container {
-  width: 1440px;
+  max-width: 1440px;
   border-top: 1px solid orange;
   border-bottom: 1px solid orange;
   height: 360px;
@@ -298,7 +303,7 @@ nav .menuBtn {
 }
 
 .inner-container-cos-map {
-  width: 1200px;
+  max-width: 1200px;
   height: 340px;
   background-color: transparent;
    /* display: flex;    */
@@ -308,15 +313,20 @@ nav .menuBtn {
   gap: 40px;
 }
 
-/* sorry I have to use about three containers before I could style properly. 
-I am sorry about that. */
+
+
+
+
+
+
+/* quote slider */
 
 
 .quote-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 900px;
+  max-width: 900px;
   gap: 40px;
   height: 320px;
   padding: 40px 20px;
@@ -370,11 +380,15 @@ I am sorry about that. */
  }
 
 
-/* Another section  */
+
+
+
+
+/* Third section  */
 
 .Third-section-con {
   background-color: #f7f0ea;
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
   display: flex;
   gap: 20px;
@@ -387,7 +401,7 @@ I am sorry about that. */
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 600px;
+  max-width: 600px;
   height: 420px;
 }
 
@@ -419,7 +433,7 @@ I am sorry about that. */
   display: grid;
   grid-template-columns: 600px;
   grid-row: 420px;
-  width: 600px;
+  max-width: 600px;
   height: 420px;
   background-color: transparent;
   
@@ -427,7 +441,7 @@ I am sorry about that. */
 
 .pc-img { 
   height: 420px;
-  width: 600px;
+  max-width: 600px;
   border-radius: 12px;
 }
 
@@ -494,12 +508,14 @@ I am sorry about that. */
 }
 
 
+
+
 /* fourth section */
 
 
 .fourth-section {
   background-color: #c0ae97;
-  width: 1440px;
+  max-width: 1440px;
   height: 1240px;
   display: flex;
   justify-content: center;
@@ -581,7 +597,7 @@ I am sorry about that. */
 
 
 .fourth-section-col-2 {
-  width: 1220px;
+  max-width: 1220px;
   height: 300px;
   /* border: 1px solid white; */
   display: flex;
@@ -598,6 +614,7 @@ I am sorry about that. */
   align-items: center;
   gap: 20px;
 }
+
 
 .message-box {
   padding: 20px 20px;
@@ -626,7 +643,7 @@ I am sorry about that. */
 
 .learn-main-box {
   height: 560px;
-  width: 1440px;
+  max-width: 1440px;
   background-color: #f7f0ea;
   display: grid;
   grid-template-columns: 520px;
@@ -641,12 +658,12 @@ I am sorry about that. */
 
 .learn-container-1 {
   background-color: rgb(72 18 12/0.7);
-  width: 1220px;
+  max-width: 1220px;
   height: 480px;
 }
 
  .img-background {
-  width: 1220px;
+  max-width: 1220px;
   height: 480px;
   grid-row: 1/2;
   grid-column: 1/2;
@@ -654,7 +671,7 @@ I am sorry about that. */
 } 
 
 .learn-container-2 {
-  width: 1220px;
+  max-width: 1220px;
   height: 480px;
   display: flex;
   justify-content: center;
@@ -664,14 +681,14 @@ I am sorry about that. */
 
 .learn-con-2-col-1, .learn-con-2-col-2 {
   height: 240px;
-  width: 300px;
+  max-width: 300px;
   margin: 0px 40px;
   background-color: transparent;
 }
 
 .learn-con-2-col-1 video {
   height: 240px;
-  width: 300px;
+  max-width: 300px;
 }
 
 .see-community-btn {
@@ -684,7 +701,7 @@ I am sorry about that. */
 /* Reward section  */
 .reward-section {
   height: 520px;
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -694,7 +711,7 @@ I am sorry about that. */
 
 .reward-section-col-1, .reward-section-col-2 {
   height: 480px;
-  width: 580px;
+  max-width: 580px;
 }
 
 .see-reward-btn {
@@ -754,6 +771,7 @@ I am sorry about that. */
   padding: 0px 30px;
   border-radius: 25px;
   margin: 10px 0px;
+  width: 300px;
 }
 
 .reward-section-col-2 p {
@@ -762,7 +780,7 @@ I am sorry about that. */
 
 .reward-terms-box {
   height: 50px;
-  width: 580px;
+  max-width: 580px;
   background-color: #48120c;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -772,6 +790,7 @@ I am sorry about that. */
 .reward-terms-box p {
   color: #f0f0f0;
   text-align: center;
+  padding-top: 10px;
 }
 
 .reward-terms {
@@ -787,7 +806,7 @@ I am sorry about that. */
 
 .last-section {
   height: 300px;
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -796,7 +815,7 @@ I am sorry about that. */
 
 .last-section-con {
    height: 270px;
-   width: 1220px;
+   max-width: 1220px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -813,7 +832,7 @@ I am sorry about that. */
 
 footer {
   height: 300px;
-  width: 1440px;
+  max-width: 1440px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -836,7 +855,7 @@ footer {
 
 .footer-col-2 {
   height: 240px;
-  width: 680px;
+  max-width: 680px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -846,7 +865,7 @@ footer {
 
 .footer-col-2-first-col, .footer-col-2-social-media {
   height: 80px;
-  width: 600px;
+  max-width: 600px;
   border: 1px solid orange;
   display: flex;
   justify-content: center;
@@ -881,13 +900,747 @@ footer {
 
 
 
+
+@media screen and (max-width: 1220px) {
+
+  .heading-1 {
+    font-size: 2.7rem;
+    width: 720px;
+    text-align: center;
+  }
+
+  /* .website-feature-images img {
+    width: 720px;
+    height: inherit;
+  } */
+
+
+
+  /* second section -- main part of home page */ 
+
+/* .main-box {
+  height: 1400px;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+} */
+
+/* 
+.heading-1 {
+  font-size: 4rem;
+  width: 1100px;
+  text-align: center;
+
+}
+
+.changing-text {
+  color: orange;
+}
+
+
+.main-box-paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: fit-content;
+  height: 50px;
+}
+
+.main-box-paragraph p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+
+.get-started-btn {
+  background-color: orange;
+} */
+
+
+.main-box-col-2 {
+  margin: 50px 0px;
+  max-width: 900px;
+  /* height: 800px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; */
+}
+
+
+.website-feature-images {
+  max-width: 720px;
+  height: 600px;
+  /* width: fit-content;
+  height: fit-content;
+  margin: 20px 0px;
+  display: grid; */
+  grid-template-columns: 900px;
+  grid-template-rows: 600px;
+}
+
+.website-feature-images img {
+  max-width: 720px;
+}
+
+/* quote slider container */
+
+
+.quote-slider-container {
+  max-width: 1200px;
+}
+
+.inner-container-cos-map {
+  max-width: 810px;
+}
+
+
+/* quote slider */
+
+
+.quote-container {
+  max-width: 900px;
+
+ }
+
+ .last-container{
+  max-width: 870px;
+
+ }
+
+
+.image-box {
+  height: 270px;
+  width: 200px;
+}
+
+.quote-box {
+  height: 270px;
+  max-width: 520px;
+}
+
+
+
+ .main-quotes {
+  font-size: 2rem;
+  max-width: 520px;
+ }
+
+
+
+
+
+ /* Third section  */
+
+.Third-section-con {
+  /* background-color: #f7f0ea; */
+  max-width: 1200px;
+  height: 720px;
+  padding: 0px 40px;
+ 
+}
+
+.third-section-col-1 {
+  max-width: 450px;
+}
+
+.heading-2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #48120c;
+}
+
+.third-section-paragrah {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #48120c;
+}
+
+.start-building-btn {
+  margin: 20px 0px;
+  background-color: orange;
+}
+
+.example {
+  font-size: 12px;
+  padding: 10px 0px;
+  color: orange;
+  background-color: #f0f0f0;
+}
+
+.third-section-col-2 {
+  display: grid;
+  grid-template-columns: 450px;
+  grid-row: 420px;
+  max-width: 600px;
+  height: 420px;
+  background-color: transparent;
+  
+}
+
+.pc-img { 
+  height: 420px;
+  max-width: 400px;
+  border-radius: 12px;
+}
+
+.mobile-img {
+  margin-top: 70px;
+  margin-left: 100px;
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+
+
+
+
+
+/* fourth section */
+
+
+.fourth-section {
+  max-width: 1220px;
+  height: 1800px;
+  /* 
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.fourth-section-con {
+  max-width: 900px;
+  height: 1500px;
+  gap: 80px;
+}
+
+
+
+.fourth-section-img-box {
+  grid-template-columns: 900px;
+  max-width: 900px;
+}
+
+.fourth-section-img-box img{
+  max-width: 900px;
+  height: 594px;
+}
+
+.fourth-section-col-2 {
+  height: 600px;
+}
+
+
+
+.fourth-section-col-2-con {
+  height: 600px;
+  max-width: 900px;
+  flex-direction: column;
+}
+
+
+   
+
+
+/* learn section */
+
+.learn-main-box {
+  padding: 40px;
+  max-width: 1220px;
+  grid-template-columns: 900px;
+  grid-template-rows: 480px;
+}
+
+
+ .learn-container-1 {
+  max-width: 900px;
+  /* background-color: rgb(72 18 12/0.7);
+  height: 480px; */
+} 
+
+ .img-background {
+  max-width: 900px;
+} 
+
+.learn-container-2 {
+  max-width: 900px; 
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+/* Reward section  */
+
+.reward-section {
+  max-width: 1220px;
+  /* display: flex;
+   height: 520px;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  background-color: #c0ae97; */
+}
+
+.reward-section-col-1, .reward-section-col-2 {
+  height: 480px;
+  max-width: 420px;
+}
+
+
+
+.reward-section-col-2 {
+  padding-top: 40px;
+  gap: 30px;
+}
+
+.reward-section-col-2 input {
+  max-width: 180px;
+}
+
+.reward-section-col-2 p {
+  color: #48120c;
+  
+}
+
+.p-1 {
+  width: 200px;
+}
+
+.reward-terms-box {
+  width: 420px;
+  margin-top: 75px;
+}
+
+.reward-terms-box p {
+  color: #f0f0f0;
+  text-align: center;
+  padding-top: 10px;
+  width: 420px;
+
+}
+
+.reward-terms {
+  color: #f0f0f0;
+  height: 25px;
+  max-width: 420px;
+}
+
+
+
+
+/* last section  */
+
+.last-section {
+  max-width: 1220px;
+  /* height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c0ae97; */
+}
+
+.last-section-con {
+  width: 720px;
+   /* height: 270px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #f0f0f0;
+   text-align: center;
+   gap: 20px; */
+}
+
+/* .last-section-con p, .last-section-con h2 {
+  color: #48120c;
+} */
+
+
+footer {
+  padding: 40px 0px;
+  max-width: 1220px;
+  height: 520px;
+  flex-direction: column;
+  gap: 40px;
+  /* height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   */
+}
+
+.footer-cta {
+  /* height: 240px; */
+  width: 600px;
+  padding: 10px 20px;
+  border: 1px solid orange;
+}
+
+/* .sign-up-terms {
+  font-size: 10px;
+  color: orange;
+  background-color: #f0f0f0;
+  padding: 10px;
+  width: fit-content;
+  margin-top: 5px;
+} */
+
+.footer-col-2 {
+  
+  width: 680px;
+  /* 
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; */
+}
+
+.footer-col-2-first-col, .footer-col-2-social-media {
+  /* height: 80px; */
+  width: 600px;
+  /* border: 1px solid orange;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+/* 
+.footer-col-2-first-col ul, .footer-col-2-social-media ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-col-2-social-media  {
+  display: flex;
+  gap: 50px;
+}
+
+.footer-buttons, .social-media-icons {
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.downloads-btn-con {
+  display: flex;
+  height: 50px;
+  width: fit-content; 
+  gap: 10px;
+  padding: 10px 20px;
+
+} */
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 887px) {
+
+
+  header {
+    height: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+.header-col-1 {
+  display: flex;
+  gap: 30px;
+  max-width: 700px;
+}
+
+.menu-btns {
+  display: flex;
+  max-width: 520px;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+
+.header-col-2 {
+  display: flex;
+  gap: 20px;
+  max-width: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.see-project-btn {
+  width: 90px;
+  height: 32px;
+  font-size: 12px;
+  padding: 0px;
+}
+
+
+
+.heading-1 {
+  font-size: 2.7rem;
+  width: 600px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.main-box {
+  height: 1150px;
+}
+
+
+
+.main-box-col-2 {
+  /* margin: 50px 0px; */
+  max-width: 887px;
+  height: 600px;
+  margin-top: 100px;
+}
+
+.website-feature-images {
+  grid-template-columns: 600px;
+  grid-template-rows: 360px;
+}
+
+.website-feature-images img { 
+  max-width: 600px;
+
+}
+
+
+.show-feature-slider-bar {
+  height: 60px;
+  border-radius: 50px;
+  display: flex;
+  gap: 10px;
+  max-width: 600px;
+  border: 1px solid #48120c;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #48120c;
+  margin: 20px 0px;
+}
+
+.show-features-btn-7 {
+  display: none;
+}
+
+
+/* quote slider container */
+
+.quote-slider-container {
+  max-width: 817px;
+}
+
+.inner-container-cos-map {
+  max-width: 640px;
+}
+
+
+
+
+.quote-container {
+
+  max-width: 620px;
+
+ }
+
+
+
+.quote-box {
+
+  max-width: 390px;
+}
+
+
+ .main-quotes {
+  font-size: 1.6rem;
+  width: 360px;
+ }
+
+
+ .main-person-name{
+  font-size: 1.2rem;
+  border-bottom: 1px solid orange;
+  width: fit-content;
+  height: fit-content;
+  padding: 0px 20px;
+  margin-top: 10px;
+ }
+
+
+/* Another section  */
+
+.Third-section-con {
+  /* background-color: #f7f0ea;
+  width: 1440px; */
+  height: 800px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.third-section-col-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 420px;
+}
+
+
+
+
+
+/* fourth section */
+
+
+.fourth-section {
+  max-width: 887px;
+  height: 1860px;
+}
+
+.fourth-section-con {
+  max-width: 600px;
+  height: 1600px; 
+  gap: 80px;
+}
+
+
+
+.fourth-section-img-box {
+  grid-template-columns: 600px;
+  max-width: 600px;
+}
+
+.fourth-section-img-box img{
+  width: 600px;
+}
+
+
+
+
+
+/* learn section */
+
+.learn-main-box {
+  padding: 40px 100px;
+  max-width: 887px;
+  grid-template-columns: 600px;
+  grid-template-rows: 480px;
+}
+
+
+ .learn-container-1 {
+  max-width: 600px;
+  /* background-color: rgb(72 18 12/0.7);
+  height: 480px; */
+} 
+
+ .img-background {
+  max-width: 600px;
+} 
+
+.learn-container-2 {
+  max-width: 600px; 
+  /* height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+
+
+
+/* Reward section  */
+
+.reward-section {
+  max-width: 887px;
+  flex-direction: column;
+  height: 1000px;
+  padding: 40px 0px;
+}
+
+.reward-section-col-1, .reward-section-col-2 {
+  height: 480px;
+  max-width: 600px;
+}
+
+
+.reward-section-col-2 {
+  width: 580px;
+  padding-top: 20px;
+  gap: 30px;
+}
+
+.reward-section-col-2 input {
+  max-width: 180px;
+}
+
+.reward-section-col-2 p {
+  color: #48120c; 
+}
+
+.p-1 {
+  width: 200px;
+}
+
+.reward-terms-box {
+  width: 620px;
+  margin-top: 90px;
+}
+
+.reward-terms-box p {
+  color: #f0f0f0;
+  text-align: center;
+  padding-top: 10px;
+  width: 420px;
+
+}
+
+.reward-terms {
+  color: #f0f0f0;
+  height: 25px;
+  max-width: 420px;
+}
+
+
+}
+
+
+
+
 @media screen and (max-width: 520px) {
 
   
 body {
  width: 520px;;
 }
-
 
 
 .see-project-btn {
@@ -1167,10 +1920,6 @@ nav .mainNavBtn {
   width: 450px;
   margin-top: 0px;
   margin-top: 20px;
-  /* justify-content: center;
-  align-items: center;
-  background-color: #48120c;
-   */
 }
 
 
@@ -1179,87 +1928,53 @@ nav .mainNavBtn {
 .quote-slider-container {
   width: 520px;
   height: 360px;
-  /* border-top: 1px solid orange;
-  border-bottom: 1px solid orange;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 40px; */
 }
 
 .inner-container-cos-map {
-  width: 480px;
+  width: 420px;
   height: 340px;
-  /* background-color: transparent; */
-   /* display: flex;    */
-  /* justify-content: center;
-  align-items: center; */
-  /* border: 1px solid pink; */
   gap: 20px;
 }
 
-/* sorry I have to use about three containers before I could style properly. 
-I am sorry about that. */
 
 
 .quote-container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  width: 480px;
+  width: 420px;
   gap: 40px;
   height: 320px;
   padding: 40px 20px;
  }
 
  .last-container{
-  width: 420px;
+  width: 390px;
   height: 320px;
   display: flex;
   gap: 10px;
   justify-content: center;
   align-items: center;
-
  }
 
 
 .image-box {
   height: 150px;
   width: 100px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .quote-box {
   height: 300px;
-  width: 420px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 20px; */
+  width: 300px;
 }
  .img-for-quotes {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
  }
 
  .main-quotes {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   width: 270px;
  }
 
-
- /* .main-person-name{
-  font-size: 1.2rem;
-  border-bottom: 1px solid orange;
-  width: fit-content;
-  height: fit-content;
-  padding: 0px 20px;
-  margin-top: 10px;
- } */
 
 
 
@@ -1335,62 +2050,12 @@ I am sorry about that. */
   border-radius: 15px;
 }
 
-/* .third-section-col-2 img {
-  display: grid;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  animation-name: imagefade;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 14s;
-}
 
-@keyframes imagefade {
-  0% {
-    opacity:1;
-  }
-  17% {
-    opacity:1;
-  }
-  25% {
-    opacity:0;
-  }
-  92% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-}
 
-.third-section-col-2 img:nth-of-type(1) {
-  animation-delay: 12s;
-}
-.third-section-col-2 img:nth-of-type(2) {
-  animation-delay: 10s;
-}
-.third-section-col-2 img:nth-of-type(3) {
-  animation-delay: 8s;
-}
-.third-section-col-2 img:nth-of-type(4) {
-  animation-delay: 6s;
-}
 
-.third-section-col-2 img:nth-of-type(5) {
-  animation-delay: 4s;
-}
-
-.third-section-col-2 img:nth-of-type(6) {
-  animation-delay: 2s;
-}
-
-.third-section-col-2 img:nth-of-type(7) {
-  animation-delay: 0s;
-} */
 
 
 /* fourth section */
-
 
 .fourth-section {
   background-color: #c0ae97;
@@ -1431,49 +2096,8 @@ I am sorry about that. */
 .fourth-section-img-box img{
   width: 480px;
   height: 400px;
-  /* display: grid;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  animation-name: imagefade;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
-  animation-duration: 10s; */
-}
-/* 
-
-@keyframes imagefade {
-  0% {
-    opacity:1;
-  }
-  17% {
-    opacity:1;
-  }
-  25% {
-    opacity:0;
-  }
-  92% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
 }
 
-.fourth-section-img-box img:nth-of-type(1) {
-  animation-delay: 8s;
-}
-.fourth-section-img-box img:nth-of-type(2) {
-  animation-delay: 6s;
-}
-.fourth-section-img-box img:nth-of-type(3) {
-  animation-delay: 4s;
-}
-.fourth-section-img-box img:nth-of-type(4) {
-  animation-delay: 2s;
-}
-.fourth-section-img-box img:nth-of-type(5) {
-  animation-delay: 0s;
-} */
 
 
 .fourth-section-col-2 {
@@ -1578,6 +2202,7 @@ I am sorry about that. */
   /* background-color: orange; */
   margin-top: 30px;
 }
+
 
 
 
@@ -1719,7 +2344,7 @@ I am sorry about that. */
 
 
 footer {
-  height: 700px;
+  height: 870px;
   width: 520px;
   display: flex;
   flex-direction: column;
@@ -1798,6 +2423,8 @@ footer {
 
 .downloads-btn-con button {
   background-color: orange;
+  width: 100px;
+  height: 40px;
 }
 
 .downloads-btn-con {
@@ -1805,7 +2432,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100px;
+  height: 70px;
   width: fit-content; 
   gap: 10px;
   padding: 10px 20px;

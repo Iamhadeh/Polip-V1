@@ -31,7 +31,7 @@ const quotesForSlider = [
     {
         name: "Naval Ravikant",
         quote:'“You make your own luck if you stay at it long enough.”',
-        image:"https://www.thevectorimpact.com/wp-content/uploads/2022/11/naval-ravikant-hero.webp"
+        image:"https://img-cdn.inc.com/image/upload/f_webp,c_fit,w_828,q_auto/images/panoramic/naval_520399_zkona1.jpg"
     }
 ]
 

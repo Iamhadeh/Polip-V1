@@ -5,7 +5,6 @@ import React from 'react'
 const Learnsection = () => {
   return (
     <div className='learn-main-box'>
-
                 {/* the image brackground */}
                 <img className='img-background' src="../public/static/images/City-background.png" alt="" />
         {/* the transparent layer */}

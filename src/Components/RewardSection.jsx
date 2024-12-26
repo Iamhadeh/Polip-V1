@@ -23,15 +23,15 @@ const RewardSection = () => {
          <p>You could build the next multimillion dollar app or a plugin that makes some people work faster and easier. You can start all of that here.</p>
          <p>But you can get rewarded while you're just starting.</p>
           <ul className='reward-bullet-point'>
-            <li> <span> <img src="../src/assets/icons8-checkmark-24.png" alt="" /> </span> Monthly Competitions</li>
-            <li> <span><img src="../src/assets/icons8-checkmark-24.png" alt="" /></span> Marketing Opportunities for your products</li>
-            <li> <span><img src="../src/assets/icons8-checkmark-24.png" alt="" /></span> Earns Polip Coins. Use it to access VIP features</li>
-            <li> <span><img src="../src/assets/icons8-checkmark-24.png" alt="" /></span> Free consultation with our alumni and board of committees</li>
+            <li> <span> <img src="../public/static/images/icons8-checkmark-24.png" alt="" /> </span> Monthly Competitions</li>
+            <li> <span><img src="../public/static/images/icons8-checkmark-24.png" alt="" /></span> Marketing Opportunities for your products</li>
+            <li> <span><img src="../public/static/images/icons8-checkmark-24.png" alt="" /></span> Earns Polip Coins. Use it to access VIP features</li>
+            <li> <span><img src="../public/static/images/icons8-checkmark-24.png" alt="" /></span> Free consultation with our alumni and board of committees</li>
           </ul>
       </div>
       <div className="reward-section-col-2">
         <button className='see-reward-btn' onClick={handleClick}>See Rewards</button>
-         <p>The number of Active Members We currently have <input value={value} type="text" /></p>
+         <p className='p-1' >The number of Active Members We currently have <input value={value} type="text" /></p>
          <p>We reward monthly winners with  <input value= {"$" + value2} type="text" /></p>
           <div className='reward-terms-box'>
             <p className='reward-terms'>More information when you <span style={{color:"orange", fontSize:"1.2rem", cursor:"pointer"}}>sign up</span></p>
