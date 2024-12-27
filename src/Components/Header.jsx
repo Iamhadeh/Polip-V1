@@ -23,14 +23,14 @@ const Header = () => {
         {
           token
           ? <div className='profile-icon-con'>
-            < img style={{height:'30px', width:'30px', borderRadius: '50%'}} className='profile-img' src='../public/Static/profile-img-Ade-o.png' alt="" />
+            < img style={{height:'30px', width:'30px', borderRadius: '50%'}} className='profile-img' src='../Static/profile-img-Ade-o.png' alt="" />
             <div 
               onMouseOver={ ()=> setDropDown('profile-dropdown')}
               onMouseOut={()=> setDropDown('hidden')}
             className='arrow-down-con'>
             <img 
              style={{height:'20px', marginTop:'5px', width:'20px', color:'white', borderRadius: '50%'}} 
-             className='profile-arrow' src='../public/Static/caret-down-fill.svg' alt="" 
+             className='profile-arrow' src='../Static/caret-down-fill.svg' alt="" 
              onMouseOver={ ()=> setDropDown('profile-dropdown')}
              onMouseOut={()=> setDropDown('hidden')}
              />

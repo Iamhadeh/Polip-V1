@@ -6,7 +6,7 @@ const AboutUsSection = () => {
   return (
     <div className='about-us-sec-con'>
         <div className="col-1-about-us-sec">
-            <img className="about-us-main-img" src="../public/static/images/About-Polip-IMG.png" alt="" />
+            <img className="about-us-main-img" src="../static/images/About-Polip-IMG.png" alt="" />
         </div>
         <div className="col-2-about-us-sec">
           <div className="col-2-about-us-sec-bg">

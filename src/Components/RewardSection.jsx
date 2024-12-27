@@ -23,10 +23,10 @@ const RewardSection = () => {
          <p>You could build the next multimillion dollar app or a plugin that makes some people work faster and easier. You can start all of that here.</p>
          <p>But you can get rewarded while you're just starting.</p>
           <ul className='reward-bullet-point'>
-            <li> <span> <img src="../public/static/images/icons8-checkmark-24.png" alt="" /> </span> Monthly Competitions</li>
-            <li> <span><img src="../public/static/images/icons8-checkmark-24.png" alt="" /></span> Marketing Opportunities for your products</li>
-            <li> <span><img src="../public/static/images/icons8-checkmark-24.png" alt="" /></span> Earns Polip Coins. Use it to access VIP features</li>
-            <li> <span><img src="../public/static/images/icons8-checkmark-24.png" alt="" /></span> Free consultation with our alumni and board of committees</li>
+            <li> <span> <img src="../static/images/icons8-checkmark-24.png" alt="" /> </span> Monthly Competitions</li>
+            <li> <span><img src="../static/images/icons8-checkmark-24.png" alt="" /></span> Marketing Opportunities for your products</li>
+            <li> <span><img src="../static/images/icons8-checkmark-24.png" alt="" /></span> Earns Polip Coins. Use it to access VIP features</li>
+            <li> <span><img src="../static/images/icons8-checkmark-24.png" alt="" /></span> Free consultation with our alumni and board of committees</li>
           </ul>
       </div>
       <div className="reward-section-col-2">

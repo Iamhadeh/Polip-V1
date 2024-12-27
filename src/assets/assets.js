@@ -40,17 +40,17 @@ const quotesForSlider = [
 const boardOfDirectors = [
     {
         name: "Adekusibe Ogunmokun",
-        image: "./public/static/images/profile-img-Ade-o.png",
+        image: "./static/images/profile-img-Ade-o.png",
         position: "Developer, Creator Polip"
     },
     {
         name: "Marryanne Otemuyiwa",
-        image: "./public/static/images/profile-marryanne.png",
+        image: "./static/images/profile-marryanne.png",
         position: "Investor, Forbes 30 under 30, 2022"
     },
     {
         name: "Gillian Jones",
-        image: "./public/static/images/profile-Gillian-Jeremy.png",
+        image: "./static/images/profile-Gillian-Jeremy.png",
         position: "Sales Expert, Ex-co-founder, SakNcapital"
     },
 ]
