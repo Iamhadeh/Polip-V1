@@ -1,5 +1,6 @@
 import React from 'react'
-import MainAbout from '../Components/About-Components/MainAbout'
+import MainAbout from '../Components/About-Components/MainAbout.jsx'
+
 import '../Components/About-Components/About.css'
 
 
