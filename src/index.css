@@ -3901,29 +3901,29 @@ footer {
      /* learn section */
      
      .learn-main-box {
-       width: 390px;
-
-       grid-template-columns: 390px;
+       width: 360px;
+       grid-template-columns: 360px;
 
      }
      
      
      .learn-container-1 {
        background-color: rgb(72 18 12/0.7);
-       width: 360px;
+       width: 300px;
        height: 600px;
+
      }
      
       .img-background {
-       width: 360px;
+       width: 300px;
        height: 600px;
        grid-row: 1/2;
        grid-column: 1/2;
-     
+    
      } 
      
      .learn-container-2 {
-       width: 360px;
+       width: 300px;
      }
      
      
@@ -3932,16 +3932,16 @@ footer {
      
      /* Reward section  */
      .reward-section {
-       width: 390px;
+       width: 360px;
      }
      
      .reward-section-col-1, .reward-section-col-2 {
-       width: 330px;
+       width: 300px;
      }
      
      
      .reward-section-col-2 {
-       width: 330px;
+       width: 300px;
      }
      
      .reward-section-col-2 input {
@@ -3965,7 +3965,7 @@ footer {
      
      .reward-terms-box {
        height: 50px;
-       width: 330px;
+       width: 300px;
      }
      
       .reward-terms-box p {
@@ -3978,7 +3978,7 @@ footer {
      } 
      
      .reward-terms {
-       width: 390px;
+       width: 300px;
      }
      
      
@@ -3988,11 +3988,11 @@ footer {
      
      .last-section {
        height: 400px;
-       width: 390px;
+       width: 360px;
      }
      
      .last-section-con {
-      width: 330px;
+      width: 300px;
      }
      
      
