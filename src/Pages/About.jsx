@@ -1,7 +1,7 @@
 import React from 'react'
-import MainAbout from '../Components/About-Components/MainAbout.jsx'
+import MainAbout from '../Components/AboutComponents/MainAbout.js'
 
-import '../Components/About-Components/About.css'
+import '../Components/AboutComponents/About.css'
 
 
 const About = () => {
