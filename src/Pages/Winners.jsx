@@ -1,9 +1,11 @@
 
+import WinnersMainPage from '../Components/WinnersComponents/winnersMainPage';
+import '../Components/WinnersComponents/winners.css';
 import React from 'react'
 
 const Winners = () => {
   return (
-    <h2>this is the winners page</h2>
+    <WinnersMainPage/>
   )
 }
 

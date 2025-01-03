@@ -1,0 +1,39 @@
+
+
+.bg-winner-page {
+    padding-top: 120px;
+    padding-bottom: 70px;
+    min-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    gap: 40px;
+}
+
+.top-pro-con {
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.mainWinner-com {
+    height: 600px;
+    width: 1200px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+
+.col-1-winner-com, .col-2-winner-com {
+    height: 520px;
+    width: 520px;
+    border: 1px solid orange;
+}

@@ -57,12 +57,13 @@ const boardOfDirectors = [
 
 
 
-const PressRelease = [
+const winnerofTheMonth = [
     {
-        title:"",
-        link:""
+        name:"",
+        img:"",
+        productName: " ",
     }
 ]
 
 export default quotesForSlider;
-export {boardOfDirectors};
+export {boardOfDirectors, winnerofTheMonth};
