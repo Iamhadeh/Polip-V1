@@ -31,8 +31,8 @@ const RewardSection = () => {
       </div>
       <div className="reward-section-col-2">
         <button className='see-reward-btn' onClick={handleClick}>See Rewards</button>
-         <p className='p-1' >The number of Active Members We currently have <input value={value} type="text" /></p>
-         <p>We reward monthly winners with  <input value= {"$" + value2} type="text" /></p>
+         <p className='p-1' >The number of Active Members We currently have <br /> <input value={value} type="text" /></p>
+         <p className='p-1'>We reward monthly winners with <br /> <input value= {"$" + value2} type="text" /></p>
           <div className='reward-terms-box'>
             <p className='reward-terms'>More information when you <span style={{color:"orange", fontSize:"1.2rem", cursor:"pointer"}}>sign up</span></p>
           </div>

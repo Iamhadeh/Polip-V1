@@ -1,5 +1,6 @@
 
 
+
 .bg-winner-page {
     padding-top: 120px;
     padding-bottom: 70px;
@@ -9,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: greenyellow;
+    background-color: #dbdada;
     gap: 40px;
 }
 

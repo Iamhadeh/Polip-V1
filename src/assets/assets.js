@@ -55,6 +55,17 @@ const boardOfDirectors = [
     },
 ]
 
+const TopProductsList  = [
+    {
+        Productname: "Fooding",
+        image: "https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?",
+        category1:" ",
+        category2:" ",
+        category3:" ",
+        position: "Developer, Creator Polip"
+    }
+]
+
 
 
 const winnerofTheMonth = [
@@ -66,4 +77,4 @@ const winnerofTheMonth = [
 ]
 
 export default quotesForSlider;
-export {boardOfDirectors, winnerofTheMonth};
+export {boardOfDirectors, winnerofTheMonth, TopProductsList};
