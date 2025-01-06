@@ -1,9 +1,9 @@
 import React from 'react'
 import AboutUsSection from './AboutUsSection'
 import BODSection from './BODSection'
-import MissionStatement from './mission-stat-sec'
+import MissionStatement from './Mission-stat-sec'
 import Career from './Career'
-import Statistics from './statistics'
+import Statistics from './Statistics'
 
 
 const AllAboutContent = () => {

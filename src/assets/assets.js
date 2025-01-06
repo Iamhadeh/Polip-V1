@@ -59,7 +59,7 @@ const boardOfDirectors = [
 
 const winnerofTheMonth = [
     {
-        name:"",
+        name:"Nenye Alfred",
         img:"",
         productName: " ",
     }
